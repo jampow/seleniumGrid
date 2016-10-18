@@ -1,5 +1,14 @@
-# Cleanup old dependencies
-rm drivers/* selenium-server*.jar
+# Cleanup the drivers dir or create it
+if [ -d drivers ]; then
+	rm drivers/*
+else
+	mkdir drivers
+fi
+
+# Remove old selenium-server
+if [ -f selenium-server*.jar ]; then
+	rm selenium-server*.jar
+fi
 
 # Get and extract chromedriver
 wget -O ./drivers/chromedriver.zip http://chromedriver.storage.googleapis.com/2.24/chromedriver_mac64.zip
