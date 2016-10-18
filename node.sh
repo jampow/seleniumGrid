@@ -1,0 +1,1 @@
+java -Dwebdriver.chrome.driver=/Users/uol/selenium/drivers/chromedriver -Dwebdriver.gecko.driver=/Users/uol/selenium/drivers/geckodriver -jar selenium-server-standalone-3.0.1.jar -role node -nodeConfig configs/node.json
