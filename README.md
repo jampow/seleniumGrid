@@ -6,4 +6,4 @@ Configuration files, scripts to download the dependencies and start the mac node
 
 1. Multiplatform, add windows and linux nodes
 2. Appium integration
-
+3. Add Safari and Opera
